@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.30)  30 OCT 2021 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.8.30)  30 OCT 2021 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.tex"
-(/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.tex
+**"/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex"
+(/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex
 LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/myDocClass.cls
+L3 programming layer <2021-02-18> (/home/zaki/Desktop/M01/LAB VHDL/LAB2/myDocClass.cls
 Document Class: myDocClass 2021/07/07 Report LaTeX class
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -776,7 +776,7 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \extratabsurround=\skip70
 \backup@length=\skip71
 \ar@cellbox=\box133
-)) (/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.aux)
+)) (/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.aux)
 \openout1 = `lab.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -888,33 +888,33 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <15.84003> not available
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/./images//umbb.png>] (/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/zaki/Desktop/M01/LAB VHDL/LAB2/./images//umbb.png>] (/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.toc)
 \tf@toc=\write5
 \openout5 = `lab.toc'.
 
  [2]
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 74.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 75.
  (/usr/share/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-) [3] [4] (/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.aux)
+) (/home/zaki/Desktop/M01/LAB VHDL/LAB2/codes/FSM_Mealy.vhd [3]) [4] [5] (/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.43997pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 22360 strings out of 478994
- 434108 string characters out of 5864751
- 1108536 words of memory out of 5000000
- 39364 multiletter control sequences out of 15000+600000
- 458196 words of font info for 81 fonts, out of 8000000 for 9000
+ 22491 strings out of 478994
+ 435464 string characters out of 5864751
+ 1513592 words of memory out of 5000000
+ 39483 multiletter control sequences out of 15000+600000
+ 462258 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,145p,593b,1207s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,12n,145p,583b,1954s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb></usr/share/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "/home/zaki/Desktop/M01/M01/VHDL lab/LAB2/latex/lab.pdf" (4 pages, 479171 bytes).
+Output written on "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.pdf" (5 pages, 484120 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 47 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

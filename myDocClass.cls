@@ -55,13 +55,13 @@
     keywordstyle=\color{blue},       % keyword style
     language=Octave,                 % the language of the code
     backgroundcolor=\color{light_gray},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}; should come as last argument
-    basicstyle=\footnotesize,        % the size of the fonts that are used for the code
-    breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+    basicstyle=\footnotesize ,        % the size of the fonts that are used for the code
+    breakatwhitespace=false,          % sets if automatic breaks should only happen at whitespace
     breaklines=true,                 % sets automatic line breaking
     captionpos=b,                    % sets the caption-position to bottom
     commentstyle=\color{mygreen},    % comment style
     deletekeywords={...},            % if you want to delete keywords from the given language
-    escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+    % escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
     extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
     firstnumber=0,                % start line enumeration with line 1000
     numberstyle=\tiny\color{dark_gray}, % the style that is used for the line-numbers
@@ -85,19 +85,26 @@
 % you can also add other languages defs after this one
 \lstdefinelanguage{VHDL}{
   morekeywords={
-    library,use,all,entity,is,port,in,out,end,architecture,of,
-    begin,and, process, case, when, select
+    library,use,,entity,is,port,in,out,end,architecture,of,
+    begin, process, case, when, select, else, if
   },
+  emph={IEEE, ieee, all, signal, TYPE, std_logic, std_logic_vector, unsigned, signed 
+  and, or, xor, nand, nor}
   morecomment=[l]--
 }
 \usepackage{xcolor}
 \colorlet{keyword}{blue!100!black!80}
 \colorlet{comment}{red!50!black!90}
+\colorlet{emphcolor}{red!50!blue!50!green!100}
 \lstdefinestyle{vhdl}{
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+  breaklines   = true, 
   language     = VHDL,
   basicstyle   = \ttfamily,
   keywordstyle = \color{keyword}\bfseries,
-  commentstyle = \color{comment}
+  commentstyle = \color{comment},
+  emphstyle = \color{mymauve},
+  stringstyle=\color{mymauve},
 }
 %--------------------------------------------------------------
 

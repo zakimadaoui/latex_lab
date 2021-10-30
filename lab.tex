@@ -71,7 +71,8 @@
 
 This is some VHDL code:
 
-\begin{lstlisting}[style=vhdl]
+%direct code
+\begin{lstlisting}[style=vhdl, title = "Title here"]
   -- import std_logic from the IEEE library
   library IEEE;
   use IEEE.std_logic_1164.all;
@@ -86,6 +87,9 @@ This is some VHDL code:
     O <= I1 ; -- this is a comment
   end architecture RTL;
   \end{lstlisting}
+
+  % code from a file (much better, since you can have syntax highlighting this way)
+  \lstinputlisting[language=VHDL, style=vhdl ,title = "Mealy FSM"]{codes/FSM_Mealy.vhd}
 
 \section{Conclusion}
 \lipsum[1-1]
