@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1635610616 "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex" "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.pdf" "lab" 1635610617
+["pdflatex"] 1635610919 "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex" "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.pdf" "lab" 1635610921
   "./images//umbb.png" 1635595140 358105 4117fa82c221c17752f6518e51d75954 ""
-  "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.aux" 1635610617 479 d3b3213cb335eb05b49758782dc8f41e ""
-  "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex" 1635610615 2291 8d1fd88c75f1649eb6dc8f33a1719b74 ""
+  "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.aux" 1635610920 479 d3b3213cb335eb05b49758782dc8f41e ""
+  "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.tex" 1635610918 2526 c2ed683a2241dffa4efb1f9e322867c1 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1617738065 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1617738065 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1617738065 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -214,14 +214,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1630359252 2812681 2784f26cda56554436bab1dce50fb8da ""
   "codes/FSM_Mealy.vhd" 1635610422 1202 c5a263d75fb89054e3a01e2338fffe6f ""
   "images//umbb.png" 1635595140 358105 4117fa82c221c17752f6518e51d75954 ""
-  "lab.aux" 1635610617 479 d3b3213cb335eb05b49758782dc8f41e "pdflatex"
-  "lab.tex" 1635610615 2291 8d1fd88c75f1649eb6dc8f33a1719b74 ""
-  "lab.toc" 1635610617 247 5e28409c6e5d86dcf4b63a4ff576ff6a "pdflatex"
+  "lab.aux" 1635610920 479 d3b3213cb335eb05b49758782dc8f41e "pdflatex"
+  "lab.tex" 1635610918 2526 c2ed683a2241dffa4efb1f9e322867c1 ""
+  "lab.toc" 1635610920 247 5e28409c6e5d86dcf4b63a4ff576ff6a "pdflatex"
   "myDocClass.cls" 1635610531 5871 63a36c29be764eed739c74b6eef570cf ""
   (generated)
-  "lab.toc"
-  "lab.aux"
-  "lab.pdf"
   "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.log"
   "/home/zaki/Desktop/M01/LAB VHDL/LAB2/lab.pdf"
+  "lab.pdf"
+  "lab.aux"
+  "lab.toc"
   "lab.log"
