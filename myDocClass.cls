@@ -29,12 +29,10 @@
 % color box
 % \usepackage[most,listings]{tcolorbox}
 % graphs and pictures
-\usepackage{tikz}
 \usepackage{mathrsfs}
-\usetikzlibrary{math}
-\usetikzlibrary{backgrounds}
-\usetikzlibrary{patterns,calc}
 \usepackage{graphicx, subcaption}
+\usepackage{float} %Allows for control of float positions
+\usepackage{caption}
 \usepackage{csvsimple,booktabs}
 \usepackage{filecontents}
 

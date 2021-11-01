@@ -93,6 +93,32 @@ This is some VHDL code:
 
 \section{Conclusion}
 \lipsum[1-1]
+
+\begin{figure}[H]
+  \centering
+  \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=6cm, semithick , scale=.8,transform shape ]
+  
+\node[initial,state] (A)                    {wait command};
+\node[state]         (B) [right of=A] {concat name};
+\node[state, align=left]         (C) [right of=B] {concat\\parameter};
+\node[state, align=left]         (E) [below of=C] {save \\parameter};
+\node[state, align=left]         (D) [below of=A] {save command\\\& notify user};
+
+\path (A) edge              node {charIn == `$>$'} (B)
+        edge [loop above] node {charIn != `$>$'} (A)
+    (B) edge [loop above] node {charIn != `,'} (B)
+        edge              node {charIn == `,'} (C)
+    (C) edge [loop above] node {charIn != `,'} (C)
+        edge              node {charIn == `,'} (E)
+        
+    (E) edge [bend left]  node {charIn != `$<$'} (C)
+        edge [bend left]  node {charIn == `$<$'} (D)
+    (D) edge              node {} (A);
+\end{tikzpicture}
+\caption {Parsing command state machine}
+\label{lst:helper_statemachine}
+\end{figure}
+
 %************************************************************
 \end{document}
 
